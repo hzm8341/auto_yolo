@@ -1,0 +1,16 @@
+# NEU-DET 数据集配置
+# path 是相对于 train.py 运行目录的路径
+
+path: /media/hzm/Data/auto_yolo/yolo-autoresearch-v2/data
+train: train/images
+val: val/images
+
+nc: 6  # 类别数量
+
+names:
+  0: crazing          # 龟裂
+  1: inclusion        # 夹杂
+  2: patches          # 斑块
+  3: pitted_surface  # 麻面
+  4: rolled-in_scale # 氧化铁皮压入
+  5: scratches       # 划痕
